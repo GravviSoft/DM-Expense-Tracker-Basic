@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="y82-4l-iLM">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
@@ -14,7 +14,7 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="CategoriesViewController" customModule="DMExpenseTrackerBasic" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="mwU-c0-LDw">
@@ -23,10 +23,10 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CategoryCell" id="GiV-xI-TVN">
-                                        <rect key="frame" x="0.0" y="50" width="374" height="43.5"/>
+                                        <rect key="frame" x="0.0" y="50" width="374" height="43.666667938232422"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="GiV-xI-TVN" id="KoV-hM-sNf">
-                                            <rect key="frame" x="0.0" y="0.0" width="374" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="43.666667938232422"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -52,7 +52,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="y82-4l-iLM" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="FGM-e2-SMs">
-                        <rect key="frame" x="0.0" y="48" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="47" width="428" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -69,25 +69,24 @@
             <objects>
                 <viewController title="Expenses View Controller" id="xib-O3-xBS" customClass="ExpensesViewController" customModule="DMExpenseTrackerBasic" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fxI-QH-HOv">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vQS-dn-xtf">
-                                <rect key="frame" x="186" y="92" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vQS-dn-xtf">
+                                <rect key="frame" x="0.0" y="101" width="428" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="VmS-QJ-Tbi">
-                                <rect key="frame" x="20" y="160" width="374" height="622"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="VmS-QJ-Tbi">
+                                <rect key="frame" x="35" y="196" width="358" height="534"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ExpenseCell" rowHeight="43" id="WZK-R0-ejL">
-                                        <rect key="frame" x="0.0" y="50" width="374" height="43"/>
+                                        <rect key="frame" x="0.0" y="50" width="358" height="43"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="WZK-R0-ejL" id="PZi-J8-Yj8">
-                                            <rect key="frame" x="0.0" y="0.0" width="374" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="358" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -97,8 +96,13 @@
                         <viewLayoutGuide key="safeArea" id="nAp-Yh-vss"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="vQS-dn-xtf" firstAttribute="centerX" secondItem="fxI-QH-HOv" secondAttribute="centerX" id="Hvb-yH-dwY"/>
-                            <constraint firstItem="vQS-dn-xtf" firstAttribute="top" secondItem="nAp-Yh-vss" secondAttribute="top" id="vZ3-ia-PhS"/>
+                            <constraint firstItem="VmS-QJ-Tbi" firstAttribute="centerX" secondItem="fxI-QH-HOv" secondAttribute="centerX" id="6B7-9K-qEf"/>
+                            <constraint firstItem="VmS-QJ-Tbi" firstAttribute="top" secondItem="vQS-dn-xtf" secondAttribute="bottom" constant="74" id="7UF-Vu-Vh0"/>
+                            <constraint firstItem="nAp-Yh-vss" firstAttribute="trailing" secondItem="VmS-QJ-Tbi" secondAttribute="trailing" constant="35" id="JBv-J7-NJ2"/>
+                            <constraint firstItem="vQS-dn-xtf" firstAttribute="top" secondItem="nAp-Yh-vss" secondAttribute="top" constant="10" id="N6T-NP-ugb"/>
+                            <constraint firstItem="nAp-Yh-vss" firstAttribute="trailing" secondItem="vQS-dn-xtf" secondAttribute="trailing" id="gVQ-i8-u7h"/>
+                            <constraint firstItem="vQS-dn-xtf" firstAttribute="centerX" secondItem="fxI-QH-HOv" secondAttribute="centerX" id="w9J-jV-2Ff"/>
+                            <constraint firstItem="VmS-QJ-Tbi" firstAttribute="centerY" secondItem="fxI-QH-HOv" secondAttribute="centerY" id="x26-iP-vi3"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="iJ7-vD-wz6"/>
@@ -109,7 +113,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Aah-wr-DLk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2376.811594202899" y="-65.625"/>
+            <point key="canvasLocation" x="2374.766355140187" y="-66.090712742980571"/>
         </scene>
     </scenes>
     <resources>
