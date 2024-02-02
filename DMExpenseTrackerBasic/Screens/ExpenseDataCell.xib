@@ -17,7 +17,7 @@
                 <rect key="frame" x="0.0" y="0.0" width="330" height="94"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" spacing="120" translatesAutoresizingMaskIntoConstraints="NO" id="fZe-8X-QWb">
+                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" spacing="74" translatesAutoresizingMaskIntoConstraints="NO" id="fZe-8X-QWb">
                         <rect key="frame" x="10" y="10" width="310" height="74"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="udw-Ag-e63">
