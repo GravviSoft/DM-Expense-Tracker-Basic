@@ -8,6 +8,7 @@
 import UIKit
 
 
+
 class CategoriesViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     
@@ -29,9 +30,11 @@ extension CategoriesViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: Constants.categoryReuseID, for: indexPath)
         cell.textLabel?.text = categories[indexPath.row]
+        
         return cell
     }
 }
+
 
 extension CategoriesViewController: UITableViewDelegate{
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -40,4 +43,7 @@ extension CategoriesViewController: UITableViewDelegate{
         
     }
 }
+
+
+
 

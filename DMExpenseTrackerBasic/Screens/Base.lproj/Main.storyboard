@@ -105,7 +105,6 @@
                     <connections>
                         <outlet property="expenseLabel" destination="vQS-dn-xtf" id="4ms-mF-w0A"/>
                         <outlet property="expenseTable" destination="VmS-QJ-Tbi" id="VvO-If-DQf"/>
-                        <outlet property="navbarTitle" destination="iJ7-vD-wz6" id="6jd-3y-u0N"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Aah-wr-DLk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
