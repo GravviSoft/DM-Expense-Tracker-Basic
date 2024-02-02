@@ -1,4 +1,4 @@
 # DM Expense Tracker
 
 ![DMExpenseTracker](
-https://github.com/GravviSoft/DM-Table-View-Intro/blob/main/expenseimage.png)
+https://github.com/GravviSoft/DM-Expense-Tracker-Basic/blob/main/expenseimage.png)
